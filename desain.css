@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #283048, #859398);
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input_string {
+    width: 300px;
+    padding: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.message input {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    #inp {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .message input {
+        width: 100%;
+    }
+}
+/* Tambahkan aturan CSS berikut ke dalam file styles.css Anda */
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+    min-width: 5vw;
+    font-size: 1.2em;
+}
+
+td {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+#result{
+    text-align: center;
+}
