@@ -13,3 +13,7 @@ Nama Anggota Kelompok:
 3. Amelia - 2201020041
 4. Arinda Amalia - 2201020019
 5. Lisa Mulyana - 2201020006
+
+Hasil project dapat dilihat pada halam github page
+
+https://luki26-png.github.io/Polybius-Square-Cryptography/
